@@ -12,7 +12,7 @@ The datasets chosen were both from [UCI Datasets](https://archive.ics.uci.edu/ml
 * [Cesarian Section Classification Dataset](https://archive.ics.uci.edu/ml/datasets/Caesarian+Section+Classification+Dataset)
 
 Metrics that are to be analyzed:
-* [RoC Curve] (https://en.wikipedia.org/wiki/Receiver_operating_characteristic);
+* [RoC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic);
 * [McNemar's test](https://en.wikipedia.org/wiki/McNemar%27s_test);
 * Accuracy;
 
