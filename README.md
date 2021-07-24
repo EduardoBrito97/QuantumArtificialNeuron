@@ -13,7 +13,7 @@ The datasets chosen were both from [UCI Datasets](https://archive.ics.uci.edu/ml
 
 Metrics that are to be analyzed:
 * [RoC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic);
-* [McNemar's test](https://en.wikipedia.org/wiki/McNemar%27s_test);
+* F1-Score;
 * Accuracy;
 
 This code will be used as tool for a Bachelor Thesis for CIn/UFPE by student Eduardo Barreto Brito, with Felipe Maciano de Paula Neto as professor.
