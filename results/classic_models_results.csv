@@ -1,0 +1,673 @@
+,dataset,model,lr,report,matrix,strategy
+0,caesarian.arff,perceptron,0.02,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",l1
+1,caesarian.arff,perceptron,0.02,"              precision    recall  f1-score   support
+
+         0.0       0.47      1.00      0.64         7
+         1.0       1.00      0.11      0.20         9
+
+    accuracy                           0.50        16
+   macro avg       0.73      0.56      0.42        16
+weighted avg       0.77      0.50      0.39        16
+","[[7 0]
+ [8 1]]",l2
+2,caesarian.arff,perceptron,0.02,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",elasticnet
+3,caesarian.arff,perceptron,0.1,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",l1
+4,caesarian.arff,perceptron,0.1,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",l2
+5,caesarian.arff,perceptron,0.1,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",elasticnet
+6,caesarian.arff,perceptron,0.001,"              precision    recall  f1-score   support
+
+         0.0       0.55      0.86      0.67         7
+         1.0       0.80      0.44      0.57         9
+
+    accuracy                           0.62        16
+   macro avg       0.67      0.65      0.62        16
+weighted avg       0.69      0.62      0.61        16
+","[[6 1]
+ [5 4]]",l1
+7,caesarian.arff,perceptron,0.001,"              precision    recall  f1-score   support
+
+         0.0       0.44      1.00      0.61         7
+         1.0       0.00      0.00      0.00         9
+
+    accuracy                           0.44        16
+   macro avg       0.22      0.50      0.30        16
+weighted avg       0.19      0.44      0.27        16
+","[[7 0]
+ [9 0]]",l2
+8,caesarian.arff,perceptron,0.001,"              precision    recall  f1-score   support
+
+         0.0       0.55      0.86      0.67         7
+         1.0       0.80      0.44      0.57         9
+
+    accuracy                           0.62        16
+   macro avg       0.67      0.65      0.62        16
+weighted avg       0.69      0.62      0.61        16
+","[[6 1]
+ [5 4]]",elasticnet
+9,caesarian.arff,perceptron,0.9,"              precision    recall  f1-score   support
+
+         0.0       0.44      1.00      0.61         7
+         1.0       0.00      0.00      0.00         9
+
+    accuracy                           0.44        16
+   macro avg       0.22      0.50      0.30        16
+weighted avg       0.19      0.44      0.27        16
+","[[7 0]
+ [9 0]]",l1
+10,caesarian.arff,perceptron,0.9,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",l2
+11,caesarian.arff,perceptron,0.9,"              precision    recall  f1-score   support
+
+         0.0       0.44      1.00      0.61         7
+         1.0       0.00      0.00      0.00         9
+
+    accuracy                           0.44        16
+   macro avg       0.22      0.50      0.30        16
+weighted avg       0.19      0.44      0.27        16
+","[[7 0]
+ [9 0]]",elasticnet
+12,caesarian.arff,mlp,0.02,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",lbfgs
+13,caesarian.arff,mlp,0.02,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",sgd
+14,caesarian.arff,mlp,0.02,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",adam
+15,caesarian.arff,mlp,0.1,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",lbfgs
+16,caesarian.arff,mlp,0.1,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",sgd
+17,caesarian.arff,mlp,0.1,"              precision    recall  f1-score   support
+
+         0.0       0.55      0.86      0.67         7
+         1.0       0.80      0.44      0.57         9
+
+    accuracy                           0.62        16
+   macro avg       0.67      0.65      0.62        16
+weighted avg       0.69      0.62      0.61        16
+","[[6 1]
+ [5 4]]",adam
+18,caesarian.arff,mlp,0.001,"              precision    recall  f1-score   support
+
+         0.0       0.50      0.43      0.46         7
+         1.0       0.60      0.67      0.63         9
+
+    accuracy                           0.56        16
+   macro avg       0.55      0.55      0.55        16
+weighted avg       0.56      0.56      0.56        16
+","[[3 4]
+ [3 6]]",lbfgs
+19,caesarian.arff,mlp,0.001,"              precision    recall  f1-score   support
+
+         0.0       0.44      1.00      0.61         7
+         1.0       0.00      0.00      0.00         9
+
+    accuracy                           0.44        16
+   macro avg       0.22      0.50      0.30        16
+weighted avg       0.19      0.44      0.27        16
+","[[7 0]
+ [9 0]]",sgd
+20,caesarian.arff,mlp,0.001,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",adam
+21,caesarian.arff,mlp,0.9,"              precision    recall  f1-score   support
+
+         0.0       0.67      0.86      0.75         7
+         1.0       0.86      0.67      0.75         9
+
+    accuracy                           0.75        16
+   macro avg       0.76      0.76      0.75        16
+weighted avg       0.77      0.75      0.75        16
+","[[6 1]
+ [3 6]]",lbfgs
+22,caesarian.arff,mlp,0.9,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",sgd
+23,caesarian.arff,mlp,0.9,"              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.56      1.00      0.72         9
+
+    accuracy                           0.56        16
+   macro avg       0.28      0.50      0.36        16
+weighted avg       0.32      0.56      0.40        16
+","[[0 7]
+ [0 9]]",adam
+24,breast_tissue_data.csv,perceptron,0.02,"              precision    recall  f1-score   support
+
+         adi       0.83      1.00      0.91         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.19      1.00      0.32         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.36        22
+   macro avg       0.17      0.33      0.20        22
+weighted avg       0.21      0.36      0.25        22
+","[[5 0 0 0 0 0]
+ [0 0 0 0 4 0]
+ [1 0 0 0 2 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 4 0]]",l1
+25,breast_tissue_data.csv,perceptron,0.02,"              precision    recall  f1-score   support
+
+         adi       0.83      1.00      0.91         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.19      1.00      0.32         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.36        22
+   macro avg       0.17      0.33      0.20        22
+weighted avg       0.21      0.36      0.25        22
+","[[5 0 0 0 0 0]
+ [0 0 0 0 4 0]
+ [1 0 0 0 2 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 4 0]]",l2
+26,breast_tissue_data.csv,perceptron,0.02,"              precision    recall  f1-score   support
+
+         adi       0.83      1.00      0.91         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.19      1.00      0.32         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.36        22
+   macro avg       0.17      0.33      0.20        22
+weighted avg       0.21      0.36      0.25        22
+","[[5 0 0 0 0 0]
+ [0 0 0 0 4 0]
+ [1 0 0 0 2 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 4 0]]",elasticnet
+27,breast_tissue_data.csv,perceptron,0.1,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",l1
+28,breast_tissue_data.csv,perceptron,0.1,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",l2
+29,breast_tissue_data.csv,perceptron,0.1,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",elasticnet
+30,breast_tissue_data.csv,perceptron,0.001,"              precision    recall  f1-score   support
+
+         adi       1.00      0.60      0.75         5
+         car       0.33      1.00      0.50         4
+         con       0.40      0.67      0.50         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       1.00      0.25      0.40         4
+
+    accuracy                           0.45        22
+   macro avg       0.46      0.42      0.36        22
+weighted avg       0.52      0.45      0.40        22
+","[[3 1 1 0 0 0]
+ [0 4 0 0 0 0]
+ [0 1 2 0 0 0]
+ [0 1 1 0 1 0]
+ [0 3 0 0 0 0]
+ [0 2 1 0 0 1]]",l1
+31,breast_tissue_data.csv,perceptron,0.001,"              precision    recall  f1-score   support
+
+         adi       1.00      0.60      0.75         5
+         car       0.33      1.00      0.50         4
+         con       0.40      0.67      0.50         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       1.00      0.25      0.40         4
+
+    accuracy                           0.45        22
+   macro avg       0.46      0.42      0.36        22
+weighted avg       0.52      0.45      0.40        22
+","[[3 1 1 0 0 0]
+ [0 4 0 0 0 0]
+ [0 1 2 0 0 0]
+ [0 1 1 0 1 0]
+ [0 3 0 0 0 0]
+ [0 2 1 0 0 1]]",l2
+32,breast_tissue_data.csv,perceptron,0.001,"              precision    recall  f1-score   support
+
+         adi       1.00      0.60      0.75         5
+         car       0.33      1.00      0.50         4
+         con       0.40      0.67      0.50         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       1.00      0.25      0.40         4
+
+    accuracy                           0.45        22
+   macro avg       0.46      0.42      0.36        22
+weighted avg       0.52      0.45      0.40        22
+","[[3 1 1 0 0 0]
+ [0 4 0 0 0 0]
+ [0 1 2 0 0 0]
+ [0 1 1 0 1 0]
+ [0 3 0 0 0 0]
+ [0 2 1 0 0 1]]",elasticnet
+33,breast_tissue_data.csv,perceptron,0.9,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",l1
+34,breast_tissue_data.csv,perceptron,0.9,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",l2
+35,breast_tissue_data.csv,perceptron,0.9,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",elasticnet
+36,breast_tissue_data.csv,mlp,0.02,"              precision    recall  f1-score   support
+
+         adi       1.00      0.60      0.75         5
+         car       0.10      0.25      0.14         4
+         con       0.60      1.00      0.75         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.25      0.25      0.25         4
+
+    accuracy                           0.36        22
+   macro avg       0.33      0.35      0.32        22
+weighted avg       0.37      0.36      0.34        22
+","[[3 0 2 0 0 0]
+ [0 1 0 0 0 3]
+ [0 0 3 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 1]]",lbfgs
+37,breast_tissue_data.csv,mlp,0.02,"              precision    recall  f1-score   support
+
+         adi       0.00      0.00      0.00         5
+         car       0.18      1.00      0.31         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.18        22
+   macro avg       0.03      0.17      0.05        22
+weighted avg       0.03      0.18      0.06        22
+","[[0 5 0 0 0 0]
+ [0 4 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 4 0 0 0 0]]",sgd
+38,breast_tissue_data.csv,mlp,0.02,"              precision    recall  f1-score   support
+
+         adi       0.62      1.00      0.77         5
+         car       1.00      0.50      0.67         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.30      1.00      0.46         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.45        22
+   macro avg       0.32      0.42      0.32        22
+weighted avg       0.36      0.45      0.36        22
+","[[5 0 0 0 0 0]
+ [0 2 0 0 0 2]
+ [3 0 0 0 0 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 4 0]]",adam
+39,breast_tissue_data.csv,mlp,0.1,"              precision    recall  f1-score   support
+
+         adi       0.62      1.00      0.77         5
+         car       0.23      0.75      0.35         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.36        22
+   macro avg       0.14      0.29      0.19        22
+weighted avg       0.18      0.36      0.24        22
+","[[5 0 0 0 0 0]
+ [0 3 1 0 0 0]
+ [3 0 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 4 0 0 0 0]]",lbfgs
+40,breast_tissue_data.csv,mlp,0.1,"              precision    recall  f1-score   support
+
+         adi       0.62      1.00      0.77         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.29      1.00      0.44         4
+
+    accuracy                           0.41        22
+   macro avg       0.15      0.33      0.20        22
+weighted avg       0.19      0.41      0.26        22
+","[[5 0 0 0 0 0]
+ [0 0 0 0 0 4]
+ [3 0 0 0 0 0]
+ [0 0 0 0 0 3]
+ [0 0 0 0 0 3]
+ [0 0 0 0 0 4]]",sgd
+41,breast_tissue_data.csv,mlp,0.1,"              precision    recall  f1-score   support
+
+         adi       1.00      0.20      0.33         5
+         car       0.67      1.00      0.80         4
+         con       0.43      1.00      0.60         3
+         fad       0.38      1.00      0.55         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.50        22
+   macro avg       0.41      0.53      0.38        22
+weighted avg       0.46      0.50      0.38        22
+","[[1 0 4 0 0 0]
+ [0 4 0 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 0 3 0 0]
+ [0 0 0 3 0 0]
+ [0 2 0 2 0 0]]",adam
+42,breast_tissue_data.csv,mlp,0.001,"              precision    recall  f1-score   support
+
+         adi       0.00      0.00      0.00         5
+         car       0.33      1.00      0.50         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.38      1.00      0.55         3
+         mas       1.00      0.50      0.67         4
+
+    accuracy                           0.41        22
+   macro avg       0.28      0.42      0.29        22
+weighted avg       0.29      0.41      0.29        22
+","[[0 5 0 0 0 0]
+ [0 4 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 2 2]]",lbfgs
+43,breast_tissue_data.csv,mlp,0.001,"              precision    recall  f1-score   support
+
+         adi       0.00      0.00      0.00         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.21      1.00      0.35         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.14        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.03      0.14      0.05        22
+","[[0 0 0 5 0 0]
+ [0 0 0 0 4 0]
+ [0 0 0 3 0 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 3 0]
+ [0 0 0 0 4 0]]",sgd
+44,breast_tissue_data.csv,mlp,0.001,"              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]",adam
+45,breast_tissue_data.csv,mlp,0.9,"              precision    recall  f1-score   support
+
+         adi       0.62      1.00      0.77         5
+         car       0.31      1.00      0.47         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       1.00      0.25      0.40         4
+
+    accuracy                           0.45        22
+   macro avg       0.32      0.38      0.27        22
+weighted avg       0.38      0.45      0.33        22
+","[[5 0 0 0 0 0]
+ [0 4 0 0 0 0]
+ [3 0 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 1]]",lbfgs
+46,breast_tissue_data.csv,mlp,0.9,"              precision    recall  f1-score   support
+
+         adi       0.00      0.00      0.00         5
+         car       0.18      1.00      0.31         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.18        22
+   macro avg       0.03      0.17      0.05        22
+weighted avg       0.03      0.18      0.06        22
+","[[0 5 0 0 0 0]
+ [0 4 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 4 0 0 0 0]]",sgd
+47,breast_tissue_data.csv,mlp,0.9,"              precision    recall  f1-score   support
+
+         adi       0.00      0.00      0.00         5
+         car       0.18      1.00      0.31         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.18        22
+   macro avg       0.03      0.17      0.05        22
+weighted avg       0.03      0.18      0.06        22
+","[[0 5 0 0 0 0]
+ [0 4 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 3 0 0 0 0]
+ [0 4 0 0 0 0]]",adam
