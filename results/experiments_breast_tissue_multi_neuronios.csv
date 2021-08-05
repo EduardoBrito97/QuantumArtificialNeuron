@@ -1,27 +1,10 @@
-,model,phase_strategy,bias,threshold,lr,matriz,report
-0,sf,original,False,0.7,0.1,"[[0, 5, 0, 0, 0, 0],
-       [0, 4, 0, 0, 0, 0],
-       [0, 3, 0, 0, 0, 0],
-       [0, 3, 0, 0, 0, 0],
-       [0, 3, 0, 0, 0, 0],
-       [0, 4, 0, 0, 0, 0]]","              precision    recall  f1-score   support
-
-         adi       0.00      0.00      0.00         5
-         car       0.18      1.00      0.31         4
-         con       0.00      0.00      0.00         3
-         fad       0.00      0.00      0.00         3
-         gla       0.00      0.00      0.00         3
-         mas       0.00      0.00      0.00         4
-
-    accuracy                           0.18        22
-   macro avg       0.03      0.17      0.05        22
-weighted avg       0.03      0.18      0.06        22"
-1,sf,original,False,0.5,0.1,"[[5, 0, 0, 0, 0, 0],
-       [4, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [4, 0, 0, 0, 0, 0]]","              precision    recall  f1-score   support
+,model,phase_strategy,bias,threshold,lr,neuron_outputs,matriz,report
+0,sf,original,False,0.5,0.1,"['adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi']","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]","              precision    recall  f1-score   support
 
          adi       0.23      1.00      0.37         5
          car       0.00      0.00      0.00         4
@@ -32,13 +15,14 @@ weighted avg       0.03      0.18      0.06        22"
 
     accuracy                           0.23        22
    macro avg       0.04      0.17      0.06        22
-weighted avg       0.05      0.23      0.08        22"
-2,hsgs,original,False,0.7,0.1,"[[5, 0, 0, 0, 0, 0],
-       [4, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [4, 0, 0, 0, 0, 0]]","              precision    recall  f1-score   support
+weighted avg       0.05      0.23      0.08        22
+"
+1,sf,original,False,0.7,0.1,"['adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi']","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]","              precision    recall  f1-score   support
 
          adi       0.23      1.00      0.37         5
          car       0.00      0.00      0.00         4
@@ -49,13 +33,14 @@ weighted avg       0.05      0.23      0.08        22"
 
     accuracy                           0.23        22
    macro avg       0.04      0.17      0.06        22
-weighted avg       0.05      0.23      0.08        22"
-3,hsgs,original,False,0.5,0.1,"[[5, 0, 0, 0, 0, 0],
-       [4, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [3, 0, 0, 0, 0, 0],
-       [4, 0, 0, 0, 0, 0]]","              precision    recall  f1-score   support
+weighted avg       0.05      0.23      0.08        22
+"
+2,hsgs,original,False,0.5,0.1,"['adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi']","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]","              precision    recall  f1-score   support
 
          adi       0.23      1.00      0.37         5
          car       0.00      0.00      0.00         4
@@ -66,13 +51,32 @@ weighted avg       0.05      0.23      0.08        22"
 
     accuracy                           0.23        22
    macro avg       0.04      0.17      0.06        22
-weighted avg       0.05      0.23      0.08        22"
-4,phase-encoding,original,False,0.7,0.1,"[[0, 0, 5, 0, 0, 0],
-       [0, 0, 4, 0, 0, 0],
-       [0, 0, 3, 0, 0, 0],
-       [0, 0, 3, 0, 0, 0],
-       [0, 0, 3, 0, 0, 0],
-       [0, 0, 4, 0, 0, 0]]","              precision    recall  f1-score   support
+weighted avg       0.05      0.23      0.08        22
+"
+3,hsgs,original,False,0.7,0.1,"['adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi', 'adi']","[[5 0 0 0 0 0]
+ [4 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [3 0 0 0 0 0]
+ [4 0 0 0 0 0]]","              precision    recall  f1-score   support
+
+         adi       0.23      1.00      0.37         5
+         car       0.00      0.00      0.00         4
+         con       0.00      0.00      0.00         3
+         fad       0.00      0.00      0.00         3
+         gla       0.00      0.00      0.00         3
+         mas       0.00      0.00      0.00         4
+
+    accuracy                           0.23        22
+   macro avg       0.04      0.17      0.06        22
+weighted avg       0.05      0.23      0.08        22
+"
+4,phase-encoding,original,False,0.5,0.1,"['con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con']","[[0 0 5 0 0 0]
+ [0 0 4 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 4 0 0 0]]","              precision    recall  f1-score   support
 
          adi       0.00      0.00      0.00         5
          car       0.00      0.00      0.00         4
@@ -83,23 +87,23 @@ weighted avg       0.05      0.23      0.08        22"
 
     accuracy                           0.14        22
    macro avg       0.02      0.17      0.04        22
-weighted avg       0.02      0.14      0.03        22"
-5,phase-encoding,original,False,0.5,0.1,"[[0, 0, 0, 0, 0, 5],
-       [0, 0, 0, 0, 0, 4],
-       [0, 0, 0, 0, 0, 3],
-       [0, 0, 0, 0, 0, 3],
-       [0, 0, 0, 0, 0, 3],
-       [0, 0, 0, 0, 0, 4]]
-","              precision    recall  f1-score   support
+weighted avg       0.02      0.14      0.03        22
+"
+5,phase-encoding,original,False,0.7,0.1,"['con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con', 'con']","[[0 0 5 0 0 0]
+ [0 0 4 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 3 0 0 0]
+ [0 0 4 0 0 0]]","              precision    recall  f1-score   support
 
          adi       0.00      0.00      0.00         5
          car       0.00      0.00      0.00         4
-         con       0.00      0.00      0.00         3
+         con       0.14      1.00      0.24         3
          fad       0.00      0.00      0.00         3
          gla       0.00      0.00      0.00         3
-         mas       0.18      1.00      0.31         4
+         mas       0.00      0.00      0.00         4
 
-    accuracy                           0.18        22
-   macro avg       0.03      0.17      0.05        22
-weighted avg       0.03      0.18      0.06        22
+    accuracy                           0.14        22
+   macro avg       0.02      0.17      0.04        22
+weighted avg       0.02      0.14      0.03        22
 "
